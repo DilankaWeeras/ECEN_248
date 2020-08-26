@@ -1,0 +1,13 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: /softwares/Linux/xilinx/Vivado/2015.2/bin/unwrapped/lnx64.o/xelab -wto 00c2084f12ed4a52b67e1ef351d9b834 --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sr_latch_tb_behav xil_defaultlib.sr_latch_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sr_latch
+Compiling module xil_defaultlib.sr_latch_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sr_latch_tb_behav

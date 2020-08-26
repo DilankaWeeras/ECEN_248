@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab7New/two_four_decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_four_decoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/two_four_decoder_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module two_four_decoder_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab7New/Lab7New.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,89 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Mon Nov 26 15:06:47 2018
+# Process ID: 28437
+# Log file: /home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.runs/impl_1/synchronizer.vdi
+# Journal file: /home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source synchronizer.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc]
+WARNING: [Vivado 12-584] No ports matched 'farmSignal[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'farmSignal[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'farmSignal[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'farmSignal[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'highwaySignal[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'highwaySignal[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'highwaySignal[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'highwaySignal[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[0]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[1]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Rst'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Rst'. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.srcs/constrs_1/imports/Lab12new/tlc_controller.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -330 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.23 . Memory (MB): peak = 1284.902 ; gain = 11.027 ; free physical = 4479 ; free virtual = 17839

@@ -1,0 +1,12 @@
+Vivado Simulator 2015.2
+Time resolution is 1 ps
+              SR-latch Reset Test passed
+             SR-latch Hold 0 Test passed
+                SR-latch Set Test passed
+             SR-latch Hold 1 Test passed
+     SR-latch Reset from Set Test passed
+      SR-latch Enable Hold Test 1 passed
+      SR-latch Enable Hold Test 2 passed
+      SR-latch Enable Hold Test 3 passed
+      SR-latch Enable Hold Test 4 passed
+All tests passed

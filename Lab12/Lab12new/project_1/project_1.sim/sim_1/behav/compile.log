@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab12new/tlc_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlc_fsm
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab12new/tlc_fsm_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tlc_fsm_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab12new/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

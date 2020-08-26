@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab8/sr_latch.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab8/sr_latch_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sr_latch_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ugrads/d/dweerasinghe/ecen248/Lab8/Lab8.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

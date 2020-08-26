@@ -1,0 +1,55 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Thu Nov  1 19:51:03 2018
+# Process ID: 33245
+# Log file: /home/ugrads/d/dweerasinghe/ecen248/Lab9/Lab9.runs/impl_1/top_level.vdi
+# Journal file: /home/ugrads/d/dweerasinghe/ecen248/Lab9/Lab9.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_level.tcl -notrace
+Command: open_checkpoint top_level_routed.dcp
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/ugrads/d/dweerasinghe/ecen248/Lab9/Lab9.runs/impl_1/.Xil/Vivado-33245-hera3.ece.tamu.edu/dcp/top_level.xdc]
+Finished Parsing XDC File [/home/ugrads/d/dweerasinghe/ecen248/Lab9/Lab9.runs/impl_1/.Xil/Vivado-33245-hera3.ece.tamu.edu/dcp/top_level.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1311.359 ; gain = 0.000 ; free physical = 44278 ; free virtual = 129156
+Restored from archive | CPU: 0.010000 secs | Memory: 0.067322 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1311.359 ; gain = 0.000 ; free physical = 44278 ; free virtual = 129156
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 1266856
+open_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 1311.359 ; gain = 275.363 ; free physical = 44280 ; free virtual = 129156
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-1223] The version limit for your license is '2017.12' and will expire in -305 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+Running DRC as a precondition to command write_bitstream
+INFO: [DRC 23-27] Running DRC with 8 threads
+WARNING: [DRC 23-20] Rule violation (PDRC-153) Gated clock check - Net clk_div0/CLK is a gated clock net sourced by a combinational pin clk_div0/Count[2]_i_2/O, cell clk_div0/Count[2]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+WARNING: [DRC 23-20] Rule violation (PLHOLDVIO-2) Non-Optimal connections which could lead to hold violations - A LUT clk_div0/Count[2]_i_2 is driving clock pin of 3 cells. This could lead to large hold time violations. First few involved cells are:
+    up1/Count_reg[0] {FDCE}
+    up1/Count_reg[1] {FDCE}
+    up1/Count_reg[2] {FDCE}
+
+WARNING: [DRC 23-20] Rule violation (ZPS7-1) PS7 block required - The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 3 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top_level.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1672.508 ; gain = 361.148 ; free physical = 43863 ; free virtual = 128741
+INFO: [Vivado_Tcl 4-395] Unable to parse hwdef file top_level.hwdef
+INFO: [Common 17-206] Exiting Vivado at Thu Nov  1 19:51:33 2018...
